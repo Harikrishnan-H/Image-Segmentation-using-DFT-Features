@@ -40,8 +40,8 @@ The script is designed to handle varying numbers of fruit classes (demonstrated 
 ## Usage
 
 1.  **Prepare the data:**
-    * Create a `Train Data` directory containing subfolders for each fruit class (e.g., `Train Data/Apple Red 1/`, `Train Data/Mango/`), with relevant training images inside.
-    * Create a `TestData` directory containing the collage images, as specified by the `TEST_COLLAGE_PATH_X` variables.
+    * Use the unzipped  `Train Data.zip` directory added in this repo or Create a `Train Data` directory containing subfolders for each fruit class (e.g., `Train Data/Apple Red 1/`, `Train Data/Mango/`), with relevant training images inside.
+    * Use the  `TestData` directory added in this repo or Create a `TestData` directory containing the collage images, as specified by the `TEST_COLLAGE_PATH_X` variables.
     * Ensure all image files are in supported formats (`.jpg`, `.png`, `.jpeg`).
 
 2.  **Run the script:**
@@ -50,7 +50,7 @@ The script is designed to handle varying numbers of fruit classes (demonstrated 
     * Execute the script
 
 3.  **View the results:**
-    * The script will create an `OutputDir` folder (as specified by `RESULTS_DIR`) in the same directory.
+    * The script will create a `Result_Dir` folder (as specified by `RESULTS_DIR`) in the same directory.
     * This folder will contain:
         * Segmented versions of test collage images (e.g., `3_Fruits_Segmentation_Block_Size_16x16_segmented.jpg`).
         * PNG images of confusion matrices for the Decision Tree classification (e.g., `3_fruits_confusion_matrix.png`).
