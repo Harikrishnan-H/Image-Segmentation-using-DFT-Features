@@ -1,4 +1,4 @@
-# Image-Segmentation-using-DFT-Features
+# Image Segmentation using DFT Features
 ## Overview
 
 This Python script implements a block-based image segmentation and classification system for fruits using **Discrete Fourier Transform (DFT)** features. It offers two primary functionalities:
